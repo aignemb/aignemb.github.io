@@ -1,0 +1,137 @@
+div.profile {
+	position: relative;
+}
+
+img.profile {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.links { position: absolute;
+	top: 15px;
+	right: 15px;
+	background-color: rgb(255, 255, 255, 0.55);
+	border-radius: 5px;
+}
+
+.linksul {
+	list-style-type: none;
+	padding: 5px;
+	margin: 0;
+}
+
+.linksul li {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.links a {
+	color: black;
+}
+
+.icon {
+	display: inline;
+	height: 30px;
+	width: 30px;
+}
+
+.icon img {
+	margin; 10px;
+}
+
+.navul {
+	position: sticky;
+	top: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #7a7a7a;
+	border-radius: 5px;
+	white-space: nowrap;
+	z-index: 9999;
+}
+
+.navul li {
+	display: inline-block;
+	width: 33%;
+}
+
+.navul a {
+	display: block;
+	color: #152f63;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+a:visited {
+	color: #152f63;
+}
+
+
+a:hover {
+	color: white;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.headder {
+	display: block;
+	padding: 70px 0;
+	margin: -70px 0;
+	text-align: center;
+}
+
+.headder h2 {
+	background-color: grey;
+	border-radius: 5px;
+}
+
+.projects {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	//height: 3000px;
+}
+
+.projects a {
+	color: black;
+}
+
+.projectcard {
+	position: relative;
+	background-color: #aebdd1;
+	height: 300px;
+	width: 300px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.projectcard:hover {
+	height: 310px;
+	width: 310px;
+	margin: 5px;
+}
+
+.projectcard img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.projectcard h3 {
+	display: block;
+	position: absolute;
+	width: 100%;
+	bottom: 10px;
+	margin: 0;
+	background-color: rgb(255, 255, 255, 0.65);
+	text-align: center;
+	font-size: 1.5em;
+}

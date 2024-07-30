@@ -1,44 +1,72 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Aigne McGeady-Bruce's Portfolio</title>
+        <title>Portfolio Test</title>
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <div>
-            <h1>Aigne McGeady-Bruce</h1>
+
+        <div class="profile">
+            <img class="profile" src="img/profile.jpg" width="2850" height="1073">
+            <div class="links">
+                <ul class="linksul">
+                    <li>
+                        <img class="icon" src="img/LinkedIn_icon.png">
+                        <a href="linkedin">LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href="gitgub">
+                            <img class="icon" src="img/GitHub_icon.svg">GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a href="linkedin">
+                            <img class="icon" src="img/Email_icon.png">aignemb@gmail.com
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resume">
+                            <img class="icon" src="img/resume.png">Download Resume
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
-        <div>
-            <h2>About</h2>
+        <ul class="navul">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+
+        <section class="section" id="about">
+            <div class="headder">
+                <h2>About</h2>
+            </div>
             <p>University: BASc in Mechanical Engineering</p>
             <p>About me: I am curious and creative. I am most interested in
-            design but am fascinated by all aspects of engineering.</p>
-        </div>
+                design but am fascinated by all aspects of engineering.</p>
+        </section>
 
-        <hr>
-
-        <div>
-            <h2>Projects</h2>
-            <h3>Gesture Glove</h3>
-            <p>Glove designed to take hand motion and use it as an input device
-            for a computer. The physical structure is made from a combination
-            of 3D printed parts and silicone molded parts. It uses linear 
-            potentiometers to determine the position of each finger and then 
-            maps this to keystrokes.</p>
-            <br><h3>Cyclist Dooring Prevention System</h3>
-            <br><h3>3D Printer Dual Extruder Design</h3>
-            <br><h3>Dancing Shrek</h3>
-            <br><h3>Custom Keyboard</h3>
-        </div>
-
-        <hr>
-
-        <div>
-            <h2>Contact</h2>
-            <p>Email: aignesion@gmail.com</p>
-            <p>Github: aignemb</p>
-            <p>Instagram: @amb_engineering</p>
-        </div>
+        <section id="projects">
+            <div class="headder">
+                <h2>Projects</h2>
+            </div>
+            <div class="projects">
+                <a href="./projects/capstone.html"><div class="projectcard">
+                    <img src="img/capstone.png">
+                    <h3>Anti-Dooring System</h3>
+                </div></a>
+                <a href="./projects/gesture-glove.html"><div class="projectcard">
+                    <img src="img/gesture-glove.png">
+                    <h3>Gesture Glove</h3>
+                </div></a>
+                <a href="./projects/keyboard.html"><div class="projectcard">
+                    <img src="img/keyboard.png">
+                    <h3>Custom Keyboard</h3>
+                </div></a>
+            </div>
+        </section>
 
     </body>
 </html>
