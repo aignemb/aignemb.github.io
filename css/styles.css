@@ -1,3 +1,7 @@
+* {
+    font-family: times-new-roman;
+}
+
 div.profile {
 	position: relative;
 }
@@ -15,24 +19,24 @@ a {
 .links { position: absolute;
 	top: 15px;
 	right: 15px;
-	background-color: rgb(255, 255, 255, 0.55);
+	background-color: rgb(174, 189, 209, 0.75);
 	border-radius: 5px;
+    padding: 5px;
 }
 
 .linksul {
 	list-style-type: none;
-	padding: 5px;
+	padding: 0px;
 	margin: 0;
 }
 
-.linksul li {
+.linksul a {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-}
-
-.links a {
-	color: black;
+	color: #152f63;
+    font-weight: bold;
+	padding: 5px;
 }
 
 .icon {
@@ -41,8 +45,9 @@ a {
 	width: 30px;
 }
 
-.icon img {
-	margin; 10px;
+.linksul p {
+    margin: 0px;
+    margin-left: 8px;
 }
 
 .navul {
@@ -74,7 +79,6 @@ a:visited {
 	color: #152f63;
 }
 
-
 a:hover {
 	color: white;
 	cursor: pointer;
@@ -91,6 +95,49 @@ a:hover {
 .headder h2 {
 	background-color: grey;
 	border-radius: 5px;
+}
+
+.about {
+    margin: 5px;
+    text-indent: 25px;
+    text-align: justify;
+    max-width: 1000px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.collapse {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 29px;
+    width: 140px;
+    border-radius: 14px;
+    background-color: #eee;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#expand {
+    display: block;
+}
+
+#collapse {
+    display: none;
+}
+
+.active,
+.collapse:hover {
+    background-color: #ccc
+}
+
+.content {
+    display: none;
 }
 
 .projects {
@@ -134,4 +181,19 @@ a:hover {
 	background-color: rgb(255, 255, 255, 0.65);
 	text-align: center;
 	font-size: 1.5em;
+}
+
+.footer div{
+    display: block;
+    background-color: grey;
+    color: white;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer p {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
 }
