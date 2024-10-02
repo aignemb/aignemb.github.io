@@ -1,0 +1,23 @@
+.titlecard .background {
+    opacity: 0.25;
+}
+
+.titlecard h1 {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    transform: translate(0, -50%);
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+}
+
+.titlecard .titleimage {
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    display: inline-block;
+    height: 95%;
+    border: 5px;
+    border-color: black;
+}
