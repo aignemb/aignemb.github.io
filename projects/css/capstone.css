@@ -4,7 +4,7 @@
 
 .titlecard h1 {
     position: absolute;
-    left: 10%;
+    right: 65%;
     top: 20%;
     transform: translate(0, -50%);
     display: inline-block;
@@ -15,7 +15,73 @@
 .titlecard .titleimage {
     position: absolute;
     top: 5%;
-    right: 10%;
+    left: 35%;
     display: inline-block;
     height: 90%;
+}
+
+#dooring {
+    display: flex;
+}
+
+#dooring p {
+    float: left;
+    width: 50%;
+}
+
+#dooring img {
+    float: left;
+    max-height: 100%;
+    max-width: 50%;
+    margin-bottom: auto;
+    vertical-align: top;
+}
+
+#camview {
+    display: flex;
+}
+
+#camview p {
+    float: left;
+    width: 40%;
+}
+
+#camview img {
+    float: left;
+    max-width: 30%;
+    max-height: 100%;
+    margin-bottom: auto;
+}
+
+#cad {
+    display: flex;
+}
+
+#cad p {
+    float: left;
+    width: 50%;
+}
+
+#cad img {
+    float: left;
+    max-width: 35%;
+    max-height: 100%;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+#doorstand {
+    display: flex;
+}
+
+#doorstand p {
+    float: left;
+    width: 50%;
+}
+
+#doorstand img {
+    float: left;
+    max-width: 50%;
+    max-height: 100%;
+    margin-bottom: auto;
 }

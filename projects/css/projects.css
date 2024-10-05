@@ -53,6 +53,16 @@ a:hover {
 	text-decoration: underline;
 }
 
+
+.section p {
+    vertical-align: top;
+    padding: 0px 15px;
+}
+
+.section img {
+    padding: 16px;
+}
+
 .footerspace {
     height: 60px;
 }
