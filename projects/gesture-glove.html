@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gesture Glove</title>
+        <link rel="stylesheet" href="css/projects.css">
+        <link rel="stylesheet" href="css/gesture-glove.css">
+    </head>
+
+    <body>
+
+        <section class="titlecard">
+            <img src="img/gg-title-bkg.jpg" class="background">
+
+            <div>
+                <img src="img/gg-primary.png" class="titleimage">
+                <h1 class="title">Gesture<br>Glove</h1>
+            </div>
+        </section>
+
+        <ul class="navul">
+            <li><a href="../index.html#">Home</a></li>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../index.html#projects">Projects</a></li>
+        </ul>
+
+        <div class="video">
+        <video width="333" height="592" controls autoplay preload="auto">
+            <source src="./img/gg-final.ogg" type="ogg" />
+            <source src="./img/gg-final1.mp4" type="mp4" />
+        </video>
+        </div>
+
+        <p class="body">I have been working on this project since 2021 and it was initially conceived as an alternative input device for computer aided design and similar softwares. However, in principle it can be used in virtual reality or in any other computer interface capacity. When I initially started looking into this project I found many similar interface gloves but I noticed several gaps that I wanted to explore. Notable among these was that similar glove designs I saw do not allow the user to use their hands normally with the glove on. Furthermore, designs I have seen typically either have a “tendon” style sensor or flexible resistor sensors.</p>
+
+        <p class="body">Based on the gaps I saw, I had several vague goals for the first prototype and also an idea of some properties I would like to see in a final version. For the initial prototype, I wanted to verify the viability of an on-finger sensor and see how natural that felt. I decided to keep all of the sensors on the back of the hand and to keep the glove part as minimal as possible. I also had the idea that the first iteration of the design should be comfortable and something I could actually use, however, I will discuss later why this was a significant error.</p>
+
+        <div class="multiimage">
+            <div class="imgwtitle">
+                <img src="./img/gg-i1.jpg" class="multi">
+                <span class="centered">1st iteration</span>
+            </div>
+            <div class="imgwtitle">
+                <img src="./img/gg-i2.jpg" class="multi">
+                <span class="centered">2nd iteration</span>
+            </div>
+            <div class="imgwtitle">
+                <img src="./img/gg-i3.jpg" class="multi">
+                <span class="centered">3rd iteration</span>
+            </div>
+        </div>
+
+        <p class="body">My work on this project so far has been mostly focused on optimizing the physical design of the glove. The glove consists of flexible and rigid 3D printed parts held together and to the hand with silicone molded straps. The movement of the first two joints of each finger is captured by linear potentiometers and the orientation of the hand is measured by a 9 axis inertial measurement unit (IMU). I went through a number of iterations for each of the components, and you can see some of the progressions below. I have also tested all of the electrical components independently and started to design the software for the glove. I will be working to share a more complete description of the full design process in the future.</p>
+
+        <div class="multiimage">
+            <div class="imgwtitle">
+                <img src="./img/gg-i4.jpg" class="multi">
+                <span class="centered">4th iteration</span>
+            </div>
+            <div class="imgwtitle">
+                <img src="./img/gg-i5.png" class="multi">
+                <span class="centered">5th iteration</span>
+            </div>
+            <div class="imgwtitle">
+                <img src="./img/gg-i6.png" class="multi">
+                <span class="centered">6th iteration</span>
+            </div>
+        </div>
+
+        <p class="body">Although this project is not complete, I have already taken away some important lessons. One of the biggest mistakes I made was trying to perfect each part of the design at the expense of finishing a complete proof of concept. I started off well, testing individual components and proving theories I had about the mechanics of the design. However, I quickly became bogged down attempting to perfect the fit of the glove and reduce the bulkiness of the design. I have made considerable progress in these areas but have still not completed a working design. I think my error was in not understanding what the goals for a first prototype should be.</p>
+
+        <div class="twoimg">
+            <div class="imgwtitle">
+                <img src="./img/gg-i7back.jpg" class="multi">
+                <span class="centered">7th iteration</span>
+            </div>
+            <div class="imgwtitle">
+                <img src="./img/gg-i7palm.jpg" class="multi">
+                <span class="centered">Finger and palm straps</span>
+            </div>
+        </div>
+
+        <p class="body">So as not to fall into this trap in the future, I have started implementing a streamlined version of the more thorough design process I practiced in university. The most critical aspect is to clearly specify the goals and scope of a given iteration of a project and then follow through on that vision. Throughout the design process, I will be making notes of features that can be added and things that need to change. Once I have completed a given iteration, I can move forward in the project with a more complete understanding of what is required in future iterations. Since this realization, I have implemented this method on projects such as my custom keyboard with great success.</p>
+
+        <p class="body">I think the main take away from this project is that it is worth pursuing further. I plan to freeze the physical design and continue my work on the electrical and software side of things in the near future. My goals now are to have a functional prototype that will allow me to start another iteration in an informed manner.</p>
+
+        <div class="footerspace">
+        </div>
+
+        <section class="footer">
+            <div>
+            <p>Copyright &copy 2024 Aigne McGeady-Bruce</p>
+            </div>
+        </section>
+    </body>
+
+</html>

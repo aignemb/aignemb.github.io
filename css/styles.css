@@ -1,0 +1,227 @@
+* {
+    font-family: times-new-roman;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    min-height: 100vh;
+}
+
+div.profile {
+	position: relative;
+}
+
+img.profile {
+	//position: absolute;
+	width: 100%;
+	height: auto;
+    vertical-align: top;
+	z-index: -1;
+}
+
+a {
+	text-decoration: none;
+}
+
+.links { position: absolute;
+	top: 15px;
+	right: 15px;
+	background-color: rgb(174, 189, 209, 0.75);
+	border-radius: 5px;
+    padding: 5px;
+}
+
+.linksul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0;
+}
+
+.linksul a {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: #152f63;
+    font-weight: bold;
+	padding: 5px;
+}
+
+.icon {
+	display: inline;
+	height: 30px;
+	width: 30px;
+}
+
+.linksul p {
+    margin: 0px;
+    margin-left: 8px;
+}
+
+.navul {
+	position: sticky;
+	top: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	//background-color: #7a7a7a;
+	background-color: rgba(245,245,245,0.9);
+	white-space: nowrap;
+	z-index: 9999;
+}
+
+.navul li {
+	display: inline-block;
+	width: 33%;
+}
+
+.navul a {
+	display: block;
+	color: #152f63;
+	text-align: center;
+	padding: 14px 16px;
+	font-weight: bold;
+}
+
+a:visited {
+	color: #152f63;
+}
+
+a:hover {
+	color: white;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.headder {
+	display: block;
+	padding: 45px 0;
+	margin: -45px 0;
+	text-align: center;
+	z-index: 9999;
+}
+
+.headder h2 {
+	background-color: grey;
+}
+
+.about {
+	margin: 5px 0px;
+	padding: 0px 15px;
+	text-indent: 25px;
+	text-align: justify;
+	max-width: 1000px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+#about h2 {
+	margin: 0;
+	margin-bottom: 19.92px;
+}
+
+.collapse {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 29px;
+    width: 140px;
+    border-radius: 14px;
+    background-color: #eee;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#expand {
+    display: block;
+}
+
+#collapse {
+    display: none;
+}
+
+.active,
+.collapse:hover {
+    background-color: #ccc
+}
+
+.content {
+    display: none;
+}
+
+.projects {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.projects a {
+	color: black;
+}
+
+.projectcard {
+	position: relative;
+	background-color: #aebdd1;
+	height: 300px;
+	width: 300px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.projectcard:hover {
+	height: 310px;
+	width: 310px;
+	margin: 5px;
+}
+
+.projectcard img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.projectcard h3 {
+	display: block;
+	position: absolute;
+	width: 100%;
+	bottom: 10px;
+	margin: 0;
+	background-color: rgb(255, 255, 255, 0.65);
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.footerspace {
+    height: 60px;
+}
+
+.footer {
+    position: absolute;
+    height: 60px;
+    bottom: 0;
+    width: 100%
+}
+
+.footer div{
+    display: block;
+    background-color: grey;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.footer p {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin: 0;
+    padding: 16px;
+}

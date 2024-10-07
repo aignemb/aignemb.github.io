@@ -1,0 +1,103 @@
+﻿scrap writing for the website
+
+* about me notes
+! brand as a builder/inventor 
+! fearless innovator, I am willing to entertain crazy ideas because I know that they often have some aspects that are not so crazy but which I would have missed otherwise. 
+- talk about experience a bit
+    -- just the number of years and that I have had a number of experinces
+- what my skills are
+    - creative problem solving
+    - communication in multidisciplinary environment
+    - conceptual generation and design
+    - working with what I have
+    - technical intuition?
+    - embedded systems design
+- experience skills
+    - modelling for 3D printing and machining
+    - prototyping using mostly 3d printing
+    - dfm for machining
+    - 
+- what I am passionate about
+    - mechatronics
+    - embedded systems design
+    - creating products/designs that people will really enjoy using
+    - communicating the magic of engineering through my desings?
+    - conributing to the betterment of society?
+    - personal projects
+- what my goals are?
+    - not sure what to put here
+
+1. into to who I am 
+- I think what I have so far is pretty good
+2. my background and what I am passionat about
+- background on why I am interested in eng
+	- lego and taking things apart
+	- love for science and technology
+	- tinkering? 
+	- something about high quality products and that  I really notice and enjoy when I use something that is designed well
+3. who I am as an engineer (skills)
+- curious
+	- have the tendency to always want to dig into the details of how something works, this is sometimes a hinderance but I am aware of it and take steps to mitigate the negative effects
+- creative
+	- love to think outside the box
+	- love to explore crazy ideas because I find there is often something 
+	- love to entertain ideas that are ultimately unrealistic but may be plausible in an alternate reality because I find there is often something in the idea that translates to something in my reality
+- collaborative
+	- love working with others
+	- brainstorming and colaborative problem solving
+-
+4. what I am working on right now
+- organization
+- coding, so that I can have more control in my embedded systems design scenarios
+
+5. who I am outside of engineering
+
+* about me
+Hello, my name is Aigne. I am curious, creative, and love building things. I have also always had a deep interest in science and technology which has lead me to pursue, and recently complete, a bachelors degree in mechanical engineering. After completiung this milestone, I am exited to continue my journey of learning while putting the skills and knowledge I have acquired to use. (I am exited to continue learning and building my skills as I put what I have learned to use in my career)
+
+My engineering career started, as I am sure many others have, with a love for building lego. Although I enjoyed creating new sets, I think the most fun I had was when I dissassembled a set and started to create something original. When I got a bit older, I started to develop a desire to take things apart to figure out how they work. I would dissassemble any old electronics or tools that I could get my hands on. Through this, I started to develop an intuition for how components can come together to accomplish the desired functionality. This intuition is something I have continued to cultivate through being curious about the world around me and by learning from the design projects I have worked on. I believe this is now one of my strengths as an engineer. (I think this is a bit too much talking about this intuition thing, maybe I talk about it more in the final section).
+
+I am someone who is greatly affected by the quality and thought that went into the products that I use. I find that I always notice how it feels to use products in my day to day life and I derive a lot of pleasure from those which have been designed well and with a clear understanding of the users needs. This is something that I am passionate about focusing on in my own designs and something that I will strive to improve as I move forward in my career. 
+
+
+
+Althouhg I am interested in engineering and technology in general, there are a few things that I have come to realize are most intreaging to me. Mechatronics design is one of these items. I love the process of creating something that has some ability to adapt to its environment, coming alive in a sense. As a result of this interest, I decided to specialize in mechatronics during my degree, which meant I allocated most of my technical electives to these courses. I have also worked on a number of mechatronics projects both personal and through school. Some notable mentions are a cyclist anti-dooring system I worked on as my capstone project, a gesture glove which takes hand motions and converts them to keystrokes, and a custom eargonomic keyboard which I am using to type right now. 
+
+Although I am interested in all aspects of engineering and technology, there are a few things that stand out as my primary passions. The first of these is embeded systems design. During university, I took all of the mechatronics based course I could and found that the embeded systems design ones were my favorite. I love creating physical systems that come alive in the sense that they are able to handle a variety of situations based on how they are programmed. I had the opportunity to work on several of these type of projects during my time at university, notably, an audiovisualizer with human input and an cyclist anti-dooring system. I have also worked on a number of personal projects in this realm, including a gesture glove and a custom eargonomic keyboard. Recently, I have been enjoying focusing more on improving my coding and software skills to complement my extensive experience with mechanical design. 
+
+I am also passionate about creating technology that brings attention to the beauty of engineering. I hope that the things I create will be inspire people. I also hope that I can create products that people really enjoy. I think I am a person that is always paying attention to the quality and functionality of products I am using and I notice when something has been designed well and when it has not been. Because of this I am highly motivated to design things that people will really appreciate. I think there is a way in which a designer can communicate with a user through the design and I hope I can do this in a positive way. I strive to create products that will users will recognize the care put into their experience. 
+I have also always been a person who enjoys tinkering. I loved creating my own lego designs and later also liked working with carboard and duct tape. As I have gained more skills, I have moved on to working on many 3D printing projects. During my time in university I have moved on to working on embedded systems projects. Most notable of these are a gesture glove that I have been working on for the last three years and a custom eargonomic keyboard that I am currently typing on. 
+
+#####CAPSTONE PAGE WRITING#####
+
+Dooring occurs when a cyclist collides with a parked car door when it isopenedin their path. This is unfortunatly quite common in cities and can haveseriousconsequences. Cyclists also have little they can do to protectthemselves fromthis type of collision for several reasons. One is that it isextremelydifficult to see whether there is a passenger inside of a parked carso there isusually no warning before the door is opened. Once it has beenopened, thecyclist often does not have time to react and if they do swervingaround thedoor is limited by passing car traffic. 
+
+A member of provincial parliment has been trying to bring awareness to this issue and requested thatmyself and three other students develop a solution prototype for this issue as our capstone project. The main goal of the project to was create a prototype that could prove the viability of this typeof solution and which could also be used to demonstrate this to members of government and the public. Although there are numerous solution paths available for this problem, we chose to pursuea car based solution which involved detecting cyclists, alerting passengers, and preventing them from opening theirdoor in front of a cyclist. 
+
+For the cyclist detection part of the system, we used an Arduino Nicla Vision camera and a computervision software called Edge Impulse. The computer vision software created a model that wouldanalyze each frame captured by the camera and determine if it contained a cyclist or not. If a cyclist was detected with a certain degree of confidence in almost all of the last number of frames,the model would send a signal to the mechanical control module. 
+
+In order to achieve the locking functionality, we retrofitted the lock of an existing door with a servo motor and a mechanism to actuate the child lock. This meant that we could disengage thedoor handle from the door latch, effectively preventing someone from opening the door even whenthey pull on the handle. We also encorporated an led light to signal when an impending collision.The full system, removed from the door, can be seen in the title image.
+
+During this project, I had the opportunity to work on all of the subelements and I feel thatI grew my skills and knowledge considerably. One of the things that was the most challenging was dealing with the asynchronous nature of detecting a cyclist. I think after wresting with it for a considerable amount of time, I am more confident in my ability to work with thesetype of systems and how to approach a solution in the future. I think one thing I should havedone which would have saved me considerable time is determine early on whether a simple polling control loop was sufficient or whether something more complex was necessary.
+
+This was the first time I have had the opportunity to workwith computer vision in a project context and I found it challenging but intreaguing. The software we used to generate the vision model was extremely user friendly to the point that we were able to get a working model without much background knowledge. Because of this, we were limited to a few options for optimizing the model which I think hindered the effectiveness. In the future, I hope to get an opportunity to dive deeper and grow my understanding of this field because I can see the potential power it has. 
+
+#####Gesture Glove#####
+
+I have been working on this project since 2021 and it was initially conceived as an alternativeinput device for computer aided design and similar softwares. However, in principle it can be used in vitual reality or for any other interface capacity. When I initially started looking intothis project I found many similar interface gloves but I noticed several gaps that I wanted to explore.
+
+One of these was that many of the gloves I found were focused on virtual reality wherethe goal is to have a device that makes the user feel as if they were in fact inside the virtualworld. In order to accomplish this, many designs focused on tactile feedback and capturing simple gestures. In contrast, I wanted to focus on my device as a high resolution input onlydevice. My goal is to see how much information and how quickly I can communicate with a computerthrough this type of interface. I decided to attempt to accurately capture the motion of the twoprimary joints of each finger as well as the orientation of the hand in space. 
+
+The other gap I saw was that there were no attempts to capture the movement of each joint withsensors on the fingers. The options were either a flexible resistor or string system thatcaptures only the overall bending of each finger or a bioinspired system where each joint hasa "tendon" which attaches to the forearm. I chose to pursue a design using linear potentiometerswhich can be mounted on each finger. 
+
+I had several goals for the first prototype and also an idea of some properties I would like to see in a final version. For the initial prototype, I wanted to verrify the viability of the on-fingersensor and see how natural that felt. I would like a final iteration of the design to be unobtrusiveenough that it does not need to be taken of for most everyday and work tasks. For the first prototype, I decided to try to keep the sensors all on the back of the hand and keep the glovepart as minimal as possible. 
+
+Before I dive into the process I have taken so far, I would like to quickly identify some of thethings I have learned from this project. One of the biggest mistakes I made was trying to perfect each part of the design at the expense of finishing a complete proof of concept. I started off well, testing individual components and proving theories I had about the mechanics of the design. However, I quickly got bogged down attempting to perfect the fit of the glove. I have made considerable progress in this respect but have still not completed a working design. 
+
+In the future, I will be taking several steps to mitigate this issue. In fact, on projectsI have completed more recently such as my custom ergonomic keyboard, I have implemented thesesteps with great success. The first thing I will do is to thouroughly define what my expectationsare for a given prototype iteration. If it is the first one, this will likely mean the minimum functionality to proove the concept but for later iterations I will detail more specific goalsand expectations. What I have found is that each iteration of each component of the design givesme a new insight and if I don't complete an initial design in one shot, many of the learningfrom one component becomes obscelete due to the learning from other components. This means I am liable to waste effort if I am not intentional about my process. I also found that not beingstrict about what I was and was not trying to accomplish on the first iteration was psychologicallydifficult as it felt like I was always almost done but would then go down another rabbithole of perfecting some aspect. 
+
+Another thing I learned was that I have a tendency to want to do everything from scratch so to speak. I enjoy the challenge and feel that when I take this path, I more fully understand the design that I am creating and I have more control over it. However, taking an excessive amount of time redoing things other people have already done has made me ask the questionof when it is worth it to do something from scrath and when it is better to make an existingsolution work even though it may not be exactly right for the application. I expect this is a quesiton I will be trying to answer for the rest of my career but now that I know the gravityof this question, I hope to be able to develop a process and intuition for answering it correctlyfor all the parts of my design. 
+
+Now, to get back to my design process thus far. I started out with a proof of concept for the linear potentiometer mounted on the finger. I went for the tried and true carboard and ducttape method for this and found that it was worth pursuing. 
+
+My next step was to begin creating 3D printed components to replace the cardboard. This was asuccess so I moved on to replace the duct tape with molded silicone straps to connect the individual components to each other and to the hand. It took some time to digure out the moldingprocess but I found the straps worked well. 

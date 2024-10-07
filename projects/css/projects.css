@@ -1,0 +1,163 @@
+body {
+    position: relative;
+    margin: 0;
+    min-height: 100vh;
+}
+
+a {
+	text-decoration: none;
+}
+
+.titlecard {
+    position: relative;
+}
+
+.titlecard .background {
+    width: 100%;
+    height: auto;
+    aspect-ratio: auto;
+    vertical-align: top;
+}
+
+.navul {
+	position: sticky;
+	top: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #7a7a7a;
+	white-space: nowrap;
+	z-index: 9999;
+}
+
+.navul li {
+	display: inline-block;
+	width: 33%;
+}
+
+.navul a {
+	display: block;
+	color: #152f63;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+a:visited {
+	color: #152f63;
+}
+
+a:hover {
+	color: white;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+p {
+    vertical-align: top;
+    padding: 0px 15px;
+}
+
+.single {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.wide {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.twoimg {
+    display: flex;
+    margin: auto;
+    padding: 16px;
+    width: 60%;
+    justify-content: center;
+}
+
+.multiimage {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    width: 90%;
+    justify-content: center;
+}
+
+.double {
+    width: 100%;
+}
+
+.multi {
+    width: 100%;
+}
+
+.imgwtitle {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: auto;
+    position: relative;
+}
+
+.twoimg .imgwtitle {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.multiimage .imgwtitle {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 33.33%;
+}
+
+.centered {
+    position: absolute;
+    text-align: center;
+    top: 100%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -8px);
+    font-style: italic;
+}
+
+.offset {
+    position: absolute;
+    text-align: center;
+    bottom: -10px;
+    left: 60%;
+    max-width: 20%;
+    transform: translate(50%,0%);
+}
+
+.footerspace {
+    height: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%
+}
+
+.footer div{
+    display: block;
+    background-color: grey;
+    color: white;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer p {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin: 0;
+    padding: 16px;
+}
