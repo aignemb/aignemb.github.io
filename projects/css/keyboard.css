@@ -1,5 +1,5 @@
 .titlecard .background {
-    opacity: 0.25;
+    opacity: 0.35;
 }
 
 .titlecard h1 {
@@ -21,4 +21,8 @@
     left: 50%;
     display: inline-block;
     height: 90%;
+}
+
+.titlespace {
+    height: 20px;
 }

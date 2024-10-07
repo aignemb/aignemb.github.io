@@ -24,3 +24,13 @@
     border: 5px;
     border-color: black;
 }
+
+.video {
+    height: 592px;
+    width: 333px;
+    margin: auto;
+    display: block;
+}
+
+video {
+}

@@ -66,6 +66,13 @@ p {
     width: 40%;
 }
 
+.wide {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
 .twoimg {
     display: flex;
     margin: auto;
@@ -74,7 +81,20 @@ p {
     justify-content: center;
 }
 
+.multiimage {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    width: 90%;
+    justify-content: center;
+}
+
 .double {
+    width: 100%;
+}
+
+.multi {
     width: 100%;
 }
 
@@ -88,6 +108,12 @@ p {
 .twoimg .imgwtitle {
     padding-left: 8px;
     padding-right: 8px;
+}
+
+.multiimage .imgwtitle {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 33.33%;
 }
 
 .centered {
