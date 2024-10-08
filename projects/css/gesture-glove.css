@@ -25,12 +25,8 @@
     border-color: black;
 }
 
-.video {
-    height: 592px;
-    width: 333px;
-    margin: auto;
-    display: block;
-}
-
 video {
+    display: block;
+    margin: 0 auto;
+    padding-top: 16px;
 }
