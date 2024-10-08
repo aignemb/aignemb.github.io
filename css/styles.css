@@ -76,6 +76,17 @@ a {
 	width: 33%;
 }
 
+.dropbtn {
+	font-size: 16;
+	border: none;
+	outline: none;
+	color: #152f63;
+	background-color: inherit;
+	font-family: inherit;
+	font-weight: bold;
+	margin: 0;
+}
+
 .navul a {
 	display: block;
 	color: #152f63;
