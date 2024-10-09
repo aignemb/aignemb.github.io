@@ -89,7 +89,6 @@ a:visited {
 }
 
 a:hover {
-	color: white;
 	cursor: pointer;
 	text-decoration: underline;
 }
