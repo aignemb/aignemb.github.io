@@ -1,75 +1,139 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Cyclist Anti-Dooring System</title>
-        <link rel="stylesheet" href="css/projects.css">
-        <link rel="stylesheet" href="css/capstone.css">
-    </head>
 
-    <body>
+<head>
+    <title>Cyclist Anti-Dooring System</title>
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/capstone.css">
+    <script src="../js/nav-fade.js"></script>
+</head>
 
-        <section class="titlecard">
-            <img src="img/cap-title-bkg.jpg" class="background">
+<body>
 
-            <div>
-                <img src="img/cap-primary.png" class="titleimage">
-                <h1 class="title">Cyclist<br>Anti-Dooring<br>System</h1>
+    <div class="navbar" id="navbar">
+        <a href="../index.html" class="nav-link">Home</a>
+        <div class="nav-dd">
+            <button class="dropbtn">Projects
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="nav-dd-list">
+                <a href="../projects/capstone.html">Cyclist Anti-Dooring Project</a>
+                <a href="../projects/gesture-glove.html">Gesture Glove</a>
+                <a href="../projects/keyboard.html">Custom Keyboard</a>
             </div>
-        </section>
+        </div>
+        <div class="nav-dd">
+            <button class="dropbtn">Links
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="nav-dd-list">
+                <a href="https://www.linkedin.com/in/aignemb">
+                    <img class="icon" src="../img/LinkedIn_icon.png">
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/aignemb">
+                    <img class="icon" src="../img/GitHub_icon.svg">
+                    <span>GitHub</span>
+                </a>
+                <a href="mailto:aignesion@gmail.com">
+                    <img class="icon" src="../img/Email_icon.png">
+                    <span>aignemb@gmail.com</span>
+                </a>
+                <a href="../downloads/amb_resume_2024.pdf">
+                    <img class="icon" src="../img/resume.png">
+                    <span>Download Resume</span>
+                </a>
+            </div>
+        </div>
+    </div>
 
-        <ul class="navul">
-            <li><a href="../index.html#">Home</a></li>
-            <li><a href="../index.html#about">About</a></li>
-            <li><a href="../index.html#projects">Projects</a></li>
-        </ul>
+    <section class="titlecard">
+        <img src="img/cap-title-bkg.jpg" class="background">
 
-        <div class="body">
-            <p>Dooring occurs when a cyclist collides with a parked car door that is opened in their path. This is unfortunately quite common in cities and can have serious consequences. Cyclists have little they can do to protect themselves from this type of collision for several reasons. The first is that it is extremely difficult to see whether there is a passenger inside of a parked car so there is usually no warning before the door is opened. Once it has been opened, the cyclist often does not have time to react and even if they do, swerving around the door is limited by passing car traffic.</p>
+        <div>
+            <img src="img/cap-primary.png" class="titleimage">
+            <h1 class="title">Cyclist<br>Anti-Dooring<br>System</h1>
+        </div>
+    </section>
 
+    <div class="title-seperator"></div>
+
+    <div class="body">
+        <p>Dooring occurs when a cyclist collides with a parked car door that is opened in their path. This is
+            unfortunately quite common in cities and can have serious consequences. Cyclists have little they can do to
+            protect themselves from this type of collision for several reasons. The first is that it is extremely
+            difficult to see whether there is a passenger inside of a parked car so there is usually no warning before
+            the door is opened. Once it has been opened, the cyclist often does not have time to react and even if they
+            do, swerving around the door is limited by passing car traffic.</p>
+
+        <div class="imgwtitle">
+            <img src="./img/cap-dooring.png" class="single">
+            <span class="centered">Dooring Event</span>
+        </div>
+
+        <p>A member of the Ontario provincial parliament has been working to bring awareness to this issue and requested
+            that myself and three other students develop a solution prototype for this issue as our capstone project.
+            The main goal of the project was to create a prototype that could prove the viability of a technological
+            solution to this problem and which could also be used to demonstrate this to members of government and the
+            public. Although there are numerous solution paths available for this problem, we chose to pursue a car
+            mounted detection system which would alert passengers and prevent them from opening their door into the path
+            of a cyclist.</p>
+
+        <p>For the cyclist detection part of the system, we used an Arduino Nicla Vision camera and a computer vision
+            software called Edge Impulse. The computer vision software created a model that would analyze each frame
+            captured by the camera and determine if it contained a cyclist or not. If a cyclist was detected with a
+            certain degree of confidence, the model would send a signal to the mechanical control module.</p>
+        <div class="twoimg">
             <div class="imgwtitle">
-                <img src="./img/cap-dooring.png" class="single">
-                <span class="centered">Dooring Event</span>
+                <img src="./img/cap-camview1.png" class="double">
+                <span class="centered">Camera detecting cyclist inside danger zone</span>
             </div>
-
-            <p>A member of the Ontario provincial parliament has been working to bring awareness to this issue and requested that myself and three other students develop a solution prototype for this issue as our capstone project. The main goal of the project was to create a prototype that could prove the viability of a technological solution to this problem and which could also be used to demonstrate this to members of government and the public. Although there are numerous solution paths available for this problem, we chose to pursue a car mounted detection system which would alert passengers and prevent them from opening their door into the path of a cyclist.</p>
-
-            <p>For the cyclist detection part of the system, we used an Arduino Nicla Vision camera and a computer vision software called Edge Impulse. The computer vision software created a model that would analyze each frame captured by the camera and determine if it contained a cyclist or not. If a cyclist was detected with a certain degree of confidence, the model would send a signal to the mechanical control module.</p>
-            <div class="twoimg">
-                <div class="imgwtitle">
-                    <img src="./img/cap-camview1.png" class="double">
-                    <span class="centered">Camera detecting cyclist inside danger zone</span>
-                </div>
-                <div class="imgwtitle">
-                    <img src="./img/cap-camview2.png" class="double">
-                    <span class="centered">Camera detecting cyclist outside danger zone</span>
-                </div>
-            </div>
-
-            <p>In order to prevent the door from opening, we retrofitted the lock of an existing door with a servo motor and a mechanism to actuate the child lock. This meant that we could disengage the door handle from the door latch, effectively preventing someone from opening the door even when they pull on the handle. We also incorporated a LED light to signal when there was an impending collision.The full system, removed from the door, can be seen in the title image.</p>
             <div class="imgwtitle">
-                <img src="./img/cap-cad.png" class="single">
-                <span class="centered">CAD model of lock mechanism retrofit</span>
-            </div>
-
-            <p>During this project, I had the opportunity to work on each of the components and I feel that I grew my skills and knowledge considerably. One of the things that was the most challenging was managing the asynchronous nature of detecting a cyclist. After wrestling with it for a good amount of time, I am more confident in my ability to work with these types of systems and to choose the correct solution form. For example, one thing I could have done to save considerable time is to determine early on whether a simple polling control loop was sufficient or whether something more complex was necessary.</p>
-
-            <p>This was the first time I have had the opportunity to work with computer vision in a project context and I found it challenging but intriguing. The software we used to generate the vision model was extremely user friendly to the point that we were able to get a working model without much background knowledge. Because of this, we were limited to a few options for optimizing the model which I think hindered the effectiveness. In the future, I hope to get an opportunity to dive deeper and grow my understanding of this field because I can see the potential power it has.</p>
-            <div class="imgwtitle">
-                <img src="./img/cap-doorstand.jpg" class="single">
-                <span class="centered">CAD model of lock mechanism retrofit</span>
+                <img src="./img/cap-camview2.png" class="double">
+                <span class="centered">Camera detecting cyclist outside danger zone</span>
             </div>
         </div>
 
-        <div class="titlespace"></div>
-
-        <div class="footerspace">
+        <p>In order to prevent the door from opening, we retrofitted the lock of an existing door with a servo motor and
+            a mechanism to actuate the child lock. This meant that we could disengage the door handle from the door
+            latch, effectively preventing someone from opening the door even when they pull on the handle. We also
+            incorporated a LED light to signal when there was an impending collision.The full system, removed from the
+            door, can be seen in the title image.</p>
+        <div class="imgwtitle">
+            <img src="./img/cap-cad.png" class="single">
+            <span class="centered">CAD model of lock mechanism retrofit</span>
         </div>
 
-        <section class="footer">
-            <div>
+        <p>During this project, I had the opportunity to work on each of the components and I feel that I grew my skills
+            and knowledge considerably. One of the things that was the most challenging was managing the asynchronous
+            nature of detecting a cyclist. After wrestling with it for a good amount of time, I am more confident in my
+            ability to work with these types of systems and to choose the correct solution form. For example, one thing
+            I could have done to save considerable time is to determine early on whether a simple polling control loop
+            was sufficient or whether something more complex was necessary.</p>
+
+        <p>This was the first time I have had the opportunity to work with computer vision in a project context and I
+            found it challenging but intriguing. The software we used to generate the vision model was extremely user
+            friendly to the point that we were able to get a working model without much background knowledge. Because of
+            this, we were limited to a few options for optimizing the model which I think hindered the effectiveness. In
+            the future, I hope to get an opportunity to dive deeper and grow my understanding of this field because I
+            can see the potential power it has.</p>
+        <div class="imgwtitle">
+            <img src="./img/cap-doorstand.jpg" class="single">
+            <span class="centered">CAD model of lock mechanism retrofit</span>
+        </div>
+    </div>
+
+    <div class="titlespace"></div>
+
+    <div class="footerspace">
+    </div>
+
+    <section class="footer">
+        <div>
             <p>Copyright &copy 2024 Aigne McGeady-Bruce</p>
-            </div>
-        </section>
-    </body>
+        </div>
+    </section>
+</body>
 
 </html>

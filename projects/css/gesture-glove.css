@@ -5,14 +5,14 @@
 .titlecard h1 {
     position: absolute;
     left: 20%;
-    top: 20%;
+    top: 30%;
     transform: translate(0, -50%);
     display: inline-block;
     text-align: center;
     font-size: 50px;
     padding: 0px 10px;
-    background-color: rgba(255,255,255,0.6);
-    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 40px;
 }
 
 .titlecard .titleimage {
