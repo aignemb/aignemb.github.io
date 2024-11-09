@@ -4,10 +4,6 @@ body {
     min-height: 100vh;
 }
 
-a {
-	text-decoration: none;
-}
-
 .titlecard {
     position: relative;
 }
@@ -19,40 +15,14 @@ a {
     vertical-align: top;
 }
 
-.navul {
-	position: sticky;
-	top: 0;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #7a7a7a;
-	white-space: nowrap;
-	z-index: 9999;
+h1 {
+    font-family: "Cascadia Code", monospace;
 }
 
-.navul li {
-	display: inline-block;
-	width: 33%;
+.title-seperator {
+    height: 15px;
+    background-color: rgb(200, 200, 200)
 }
-
-.navul a {
-	display: block;
-	color: #152f63;
-	text-align: center;
-	padding: 14px 16px;
-}
-
-a:visited {
-	color: #152f63;
-}
-
-a:hover {
-	color: white;
-	cursor: pointer;
-	text-decoration: underline;
-}
-
 
 p {
     vertical-align: top;
@@ -132,7 +102,7 @@ p {
     bottom: -10px;
     left: 60%;
     max-width: 20%;
-    transform: translate(50%,0%);
+    transform: translate(50%, 0%);
 }
 
 .footerspace {
@@ -145,10 +115,10 @@ p {
     width: 100%
 }
 
-.footer div{
+.footer div {
     display: block;
-    background-color: grey;
-    color: white;
+    background-color: rgb(200, 200, 200);
+    color: black;
     height: 60px;
     width: 100%;
     text-align: center;
